@@ -1,0 +1,22 @@
+.provider-section {
+    padding-top: 217px;
+    padding-bottom: 277px;
+    background-image: url(../../assets/images/provider-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 30px center;
+}
+
+.provider-section__title {
+    margin: 0;
+    padding: 0;
+    width: 798px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color: #E89E4A;
+}
+
+.provider-section__span {
+    color: #FFFFFF;
+}

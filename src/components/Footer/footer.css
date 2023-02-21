@@ -1,0 +1,147 @@
+.footer {
+    padding-bottom: 80px;
+}
+
+.footer__top {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.footer__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__nav-item + .footer__nav-item {
+    margin-top: 20px;
+}
+
+.footer__nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.footer__contact-wrapper {
+    margin-left: 200px;
+}
+
+.footer__contact-title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E89E4A;
+}
+
+.div-con {
+    display: flex;
+    align-items: center;
+}
+
+.div-con + .div-con {
+    margin-top: 24px;
+}
+
+.footer__location-name {
+    margin-left: 19px;
+}
+
+.footer__location-desc {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    width: 325px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer__location-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E89E4A;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.word {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__call-number {
+    margin-left: 19px;
+}
+
+.footer__time-desc {
+    margin-left: 19px;
+}
+
+.footer__mail-link {
+    margin-left: 19px;
+    color: #E89E4A;
+}
+
+.bi-envelope {
+    color: #E89E4A;
+}
+
+.footer__media-list {
+    margin: 0;
+    margin-left: 475px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.footer__media-item + .footer__media-item{
+    margin-left: 10px;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__bottom__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer__bottom__desc {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__bottom__company-name {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

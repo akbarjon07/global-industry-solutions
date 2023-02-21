@@ -1,0 +1,26 @@
+.nav-section {
+    padding: 65px 0;
+}
+
+.nav-section__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-section__item + .nav-section__item {
+    margin-left: 105px;
+}
+
+.nav-section__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #E89E4A;
+}

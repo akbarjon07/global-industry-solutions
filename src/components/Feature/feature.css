@@ -1,0 +1,33 @@
+.feature-section {
+    background-image: url(../../assets/images/news-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.feature-section__wrapper {
+    margin-left: 40px;
+    padding-top: 356px;
+    padding-bottom: 40px;
+}
+
+.feature-section__desc {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E89E4A;
+}
+
+.feature-section__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

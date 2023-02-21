@@ -1,0 +1,63 @@
+.activity-section {
+    padding-top: 240px;
+    padding-bottom: 350px;
+    background-image: url(../../assets/images/gis.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom right;
+}
+
+.activity-section__desc-wrapper {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.bi-octagon-fill {
+    color: #E89E4A;;
+}
+
+.activity-section__desc {
+    margin: 0;
+    margin-left: 16px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.activity-section__title {
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    width: 762px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.activity-section__wrapper {
+    display: flex;
+}
+
+.activity-section__span {
+    display: block;
+    width: 160px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.activity-section__description {
+    margin: 0;
+    margin-left: 205px;
+    padding: 0;
+    width: 832px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}

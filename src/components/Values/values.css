@@ -26,12 +26,13 @@
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #242424;
+    transition: background-color 1s ease;
     background-color: #FFFFFF;
 }
 
 .values-section__desc:hover {
     background-color: #E89E4A;
-    color: #242424;
+    color: #FFFFFF;
 }
 
 .dev {

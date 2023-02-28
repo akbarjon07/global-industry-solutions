@@ -12,8 +12,10 @@
 
 
 .firms-section__img-wrapper {
+    width: 100vw;
     display: grid;
-    grid-template-columns: 353px 353px 353px 353px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 2px;
 }
 
 .firms-section__wrapper {

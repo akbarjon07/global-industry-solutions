@@ -1,6 +1,3 @@
-import { Footer } from "../components/Footer/Footer";
-import { Outlet } from "react-router-dom";
-import { Top } from "../components/Top/Top";
 import "./layout.css";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "../Pages/Home/Home";
@@ -10,6 +7,9 @@ import { New } from "../Pages/New/New";
 import {Contact} from "../Pages/Contact/Contact";
 import { Article } from "../Pages/Article/Article";
 import { CompanyInfo } from "../Pages/CompanyInfo/CompanyInfo";
+import { Header } from "../components/Header/Header";
+import { Footer } from "../components/Footer/Footer";
+
 
 
 
@@ -18,6 +18,8 @@ export const Layout = () => {
 
     return (
         <>
+            <Header/>
+
             <main>
                 <Routes>
                         <Route path="/" element={<Home/>}/>
@@ -29,6 +31,8 @@ export const Layout = () => {
                         <Route path="/company" element={<CompanyInfo/>}/>
                 </Routes>
             </main>
+
+            <Footer/>
         </>
     )
 }

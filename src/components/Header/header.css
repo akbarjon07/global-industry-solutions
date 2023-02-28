@@ -1,5 +1,12 @@
 .header {
     padding: 40px 0;
+    position: absolute;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .container {
@@ -7,6 +14,7 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+
 .header__container {
     display: flex;
     align-items: center;
@@ -34,6 +42,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+    transition: color 1s ease;
 }
 
 .header__nav-link:hover {
@@ -63,6 +72,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+    transition: color 1s ease;
 }
 
 .header__number-link:hover {

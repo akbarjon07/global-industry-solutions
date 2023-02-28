@@ -1,5 +1,5 @@
 import "./activity.css"
-import Gis from "../../assets/images/gis.svg";
+import Gis from "../../assets/images/gis.png";
 
 export const Activity = () => {
 

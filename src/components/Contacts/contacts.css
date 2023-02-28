@@ -1,4 +1,5 @@
 .contacts-section {
+    padding-top: 220px;
     padding-bottom: 128px;
 }
 
@@ -60,6 +61,10 @@
     font-size: 15px;
     line-height: 23px;
     color: #FFFFFF;
+}
+
+.contacts-section__btn:hover {
+    opacity: 0.8;
 }
 
 .con-icon {

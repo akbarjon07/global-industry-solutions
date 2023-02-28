@@ -12,7 +12,7 @@ export const Contacts = () => {
                         <div className="contacts-section__contact-wrapper">
 
                             <div className="footer__location-wrapper div-con">
-                                <i class="bi bi-geo-alt icon"></i>
+                                <i class="bi bi-geo-alt icon con-icon"></i>
 
 
                                 <p className="footer__location-desc address">
@@ -23,7 +23,7 @@ export const Contacts = () => {
                             </div>
 
                             <div className="footer__call-wrapper div-con">
-                                <i class="bi bi-telephone icon"></i>
+                                <i class="bi bi-telephone icon con-icon"></i>
 
                                 <div className="footer__call-number">
                                     <a className="footer__call-link word" href="tel:+998(71)2319238">
@@ -60,8 +60,8 @@ export const Contacts = () => {
                         </form>
                     </div>
 
-                    <a href="#">
-                        <img src={Map} alt="map" width={973} height={714} />
+                    <a className="contacts-section__map-link" href="#">
+                        <img className="contacts-section__map-img" src={Map} alt="map" width={973} height={714} />
                     </a>
                 </div>
             </div>

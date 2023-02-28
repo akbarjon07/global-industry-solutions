@@ -1,7 +1,11 @@
 .company-section {
+    padding-top: 1050px;
     padding-bottom: 200px;
+    background-image: url(../../assets/images/company-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
 }
-
 .company-section__container {
     display: flex;
     flex-direction: column;
@@ -26,7 +30,7 @@
 
 .company-section__desc {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 0;
     width: 900px;
     font-weight: 500;

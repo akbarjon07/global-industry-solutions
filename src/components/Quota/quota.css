@@ -2,24 +2,3 @@
     padding-top: 150px;
     padding-bottom: 128px;
 }
-
-.quota-section__wrapper {
-    display: flex;
-}
-
-.bi-quote {
-    font-size: 4rem;
-    color: #E89E4A;
-}
-
-.quota-section__title {
-    margin: 0;
-    margin-left: 64px;
-    padding: 0;
-    width: 1080px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 48px;
-    color: #FFFFFF;
-
-}

@@ -17,10 +17,8 @@
     justify-content: center;
 }
 
-.eye {
+.mission-section__img {
     margin-bottom: 48px;
-    color: #FFFFFF;
-    font-size: 10rem;
 }
 
 .heading {
@@ -30,7 +28,7 @@
     width: 469px;
     text-align: center;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 80px;
     color: #FFFFFF;
 }
@@ -45,4 +43,34 @@
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .mission-section {
+        padding-bottom: 120px;
+    }
+
+    .mission-section__wrapper {
+        flex-direction: column;
+    }
+
+    .mission-section__left {
+        margin-bottom: 80px;
+    }
+
+    .mission-section__img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }

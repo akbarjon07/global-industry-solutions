@@ -1,4 +1,6 @@
 import "./mission.css";
+import Target from "../../assets/images/target.png";
+import Eye from "../../assets/images/eye.png";
 
 export const Mission = () => {
 
@@ -7,7 +9,7 @@ export const Mission = () => {
             <div className="container">
                 <div className="mission-section__wrapper">
                     <div className="mission-section__left box">
-                        <i class="bi bi-bullseye eye"></i>
+                        <img className="mission-section__img" src={Target} alt="target" width="160" height="160"/>
 
                         <h2 className="mission-section__left-title heading">Наша миссия</h2>
 
@@ -15,7 +17,7 @@ export const Mission = () => {
                     </div>
 
                     <div className="mission-section__right box">
-                        <i class="bi bi-eye eye"></i>
+                        <img className="mission-section__img" src={Eye} alt="eye" width="160" height="160"/>
 
                         <h2 className="mission-section__right-title heading">Наше видение</h2>
 

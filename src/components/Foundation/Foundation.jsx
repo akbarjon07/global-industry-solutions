@@ -16,7 +16,7 @@ export const Foundation = () => {
                     <div className="foundation-section__left">
                         <h2 className="foundation-section__left-title">Отличная технология, лучшие услуги</h2>
 
-                        <img className="foundation-section__left-img" src={FoundLogo} alt="FoundLogo" width={466} height={521}/>
+                        <img className="foundation-section__left-img" src={FoundLogo} alt="FoundLogo" width={366} height={421}/>
                     </div>
 
                     <div className="foundation-section__right">

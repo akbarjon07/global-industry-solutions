@@ -1,10 +1,11 @@
 .provider-section {
-    padding-top: 217px;
-    padding-bottom: 277px;
-    background-image: url(../../assets/images/provider-bg.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: right 30px center;
+    padding-bottom: 150px;
+}
+
+.provider-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .provider-section__title {
@@ -12,11 +13,29 @@
     padding: 0;
     width: 798px;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 88px;
     color: #E89E4A;
 }
 
 .provider-section__span {
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .provider-section {
+        padding-top: 50px;
+        padding-bottom: 420px;
+        background-image: url(../../assets/images/pro-bg.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center top 280px;
+    }
+
+    .provider-section__title {
+        width: 360px;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+    }
 }

@@ -36,7 +36,7 @@
     margin-bottom: 40px;
     padding: 0;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 34px;
     line-height: 48px;
     color: #FFFFFF;
 }
@@ -46,7 +46,7 @@
     margin-bottom: 40px;
     padding: 0;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -60,6 +60,10 @@
     color: #E89E4A;
 }
 
-.bi-arrow-up-right {
+.worktype-section__link:hover {
+    opacity: 0.8;
+}
+
+.worktype-section__img {
     margin-left: 12px;
 }

@@ -1,6 +1,7 @@
 .top {
     padding: 40px 0;
     position: absolute;
+    z-index: 100;
 }
 
 .container {
@@ -8,13 +9,14 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+
 .top__container {
     display: flex;
     align-items: center;
 }
 
 .top__nav {
-    margin-left: 210px;
+    margin-left: 150px;
 }
 
 .top__nav-list {
@@ -50,6 +52,11 @@
     color: #FFFFFF;
     background-color: transparent;
     border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    outline: none;
 }
 
 .top__number-link {
@@ -59,4 +66,8 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+.top__number-link:hover {
+    color: #E89E4A;
 }

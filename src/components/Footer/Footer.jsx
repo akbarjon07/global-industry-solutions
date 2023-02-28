@@ -1,6 +1,11 @@
 import "./footer.css";
 import { NavLink } from "react-router-dom";
-import Inweb from "../../assets/images/inweb.png"
+import Inweb from "../../assets/images/inweb.png";
+import Instagram from "../../assets/images/instagram.svg";
+import Facebook from "../../assets/images/facebook.svg";
+import Twit from "../../assets/images/twit.svg";
+
+
 
 export const Footer = () => {
   return (
@@ -10,25 +15,25 @@ export const Footer = () => {
           <nav className="footer__nav">
             <ul className="footer__nav-list">
               <li className="footer__nav-item">
-                <NavLink className="footer__nav-link">Главная</NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? "footer__nav-link-active footer__nav-link" : "footer__nav-link"}>Главная</NavLink>
               </li>
 
               <li className="footer__nav-item">
-                <NavLink className="footer__nav-link">О нас</NavLink>
+                <NavLink to="/about" className={({isActive}) => isActive ? "footer__nav-link-active footer__nav-link" : "footer__nav-link"}>О нас</NavLink>
               </li>
 
               <li className="footer__nav-item">
-                <NavLink className="footer__nav-link">
+                <NavLink to="/activity" className={({isActive}) => isActive ? "footer__nav-link-active footer__nav-link" : "footer__nav-link"}>
                   Сферы деятельности
                 </NavLink>
               </li>
 
               <li className="footer__nav-item">
-                <NavLink className="footer__nav-link">Новости</NavLink>
+                <NavLink to="/news" className={({isActive}) => isActive ? "footer__nav-link-active footer__nav-link" : "footer__nav-link"}>Новости</NavLink>
               </li>
 
               <li className="footer__nav-item">
-                <NavLink className="footer__nav-link">Контакты</NavLink>
+                <NavLink to="/contacts" className={({isActive}) => isActive ? "footer__nav-link-active footer__nav-link" : "footer__nav-link"}>Контакты</NavLink>
               </li>
             </ul>
           </nav>
@@ -87,20 +92,20 @@ export const Footer = () => {
 
           <ul className="footer__media-list">
             <li className="footer__media-item">
-              <a className="footer__media-link icon" href="#">
-                <i class="bi bi-twitter"></i>
+              <a className="footer__media-link" href="#">
+                <img className="footer__media-img" src={Twit} alt="twitter" width={40} height={40} />
               </a>
             </li>
 
             <li className="footer__media-item">
               <a className="footer__media-link" href="#">
-                <i class="bi bi-instagram icon"></i>
+                <img className="footer__media-img" src={Instagram} alt="twitter" width={40} height={40} />
               </a>
             </li>
 
             <li className="footer__media-item">
               <a className="footer__media-link" href="#">
-                <i class="bi bi-facebook icon"></i>
+                <img className="footer__media-img" src={Facebook} alt="twitter" width={40} height={40} />
               </a>
             </li>
           </ul>
@@ -109,10 +114,10 @@ export const Footer = () => {
         <div className="footer__bottom">
           <p className="footer__bottom__desc">Copyright © {new Date().getFullYear()} All rights reserved. global-industrial.uz</p>
 
-          <div className="footer__bottom__wrapper">
+          <a href="https://inweb.uz/" className="footer__bottom__wrapper">
             <p className="footer__bottom__company-name">Разработка - </p>
-            <img src={Inweb} alt="com-logo" width={15} height={18}/>
-          </div>
+            <img className="footer__bottom__company-img" src={Inweb} alt="com-logo" width={15} height={18}/>
+          </a>
         </div>
       </div>
     </footer>

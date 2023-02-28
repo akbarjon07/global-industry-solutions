@@ -1,14 +1,14 @@
 .works-section {
     padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 .works-section__title {
     margin: 0;
     margin-bottom: 160px;
     padding: 0;
-    width: 1240px;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 48px;
     line-height: 80px;
     color: #FFFFFF;
 }
@@ -22,8 +22,8 @@
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: 305px 305px 775px;
-    grid-row: 5px;
+    grid-template-columns:  1fr 1fr 2fr;
+    gap: 2px;
 }
 
 .works-section__item {

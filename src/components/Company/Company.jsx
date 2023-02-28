@@ -1,5 +1,5 @@
 import "./company.css";
-import Com from "../../assets/images/company-bg.jpeg";
+// import Com from "../../assets/images/company-bg.jpeg";
 import Rec from "../../assets/images/company-rec.jpeg";
 
 
@@ -8,7 +8,10 @@ export const Company = () => {
     return (
         <section className="company-section">
             <div className="container company-section__container">
-                <img className="company-section__img" src={Com} alt="img" width={1400} height={760} />
+
+            {/* <video autoplay muted loop id="myVideo">
+                <source src={Com} type="video/mp4"/>
+            </video> */}
 
                 <h3 className="company-section__title">пожарная продукция</h3>
 

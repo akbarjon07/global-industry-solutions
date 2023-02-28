@@ -1,33 +1,32 @@
 .hero-section {
-    padding-top: 400px;
-    padding-bottom: 450px;
-    background-image: url(../../assets/images/hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center top;
+    padding-bottom: 240px;
 }
 
-.container {
+/* .container {
     max-width: 1400px;
     padding: 0 20px;
     margin: 0 auto;
+} */
+
+.hero-section__img {
+    width: 100vw;
+    height: 100vh;
 }
 
 .hero-section__title {
     margin: 0;
     padding: 0;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 68px;
     line-height: 98px;
     color: #FFFFFF;
 }
 
 .hero-section__desc {
     margin: 0;
+    margin-bottom: 2px;
     padding: 0;
     text-align: center;
-    position: relative;
-    top: 410px;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -41,6 +40,44 @@
     width: 1px;
     height: 39px;
     background-color: #FFFFFF;
+}
+
+.hero-section__wrapper {
+    position: absolute;
+    top: 290px;
+    left: 20px;
+}
+
+.hero-section__scroll {
     position: relative;
-    top: 430px;
+    top: 278px;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+    position: relative;
+    left:  32%;
+    bottom: 150px;
+}
+
+.swiper-button-prev {
+    color: #FFFFFF !important;
+    position: relative !important;
+    left:  78% !important;
+    bottom: 128px !important;
+}
+
+.swiper-button-next {
+    color: #FFFFFF !important;
+    position: relative !important;
+    left:  84% !important;
+    bottom: 150px !important;
+}
+
+.swiper-button-prev::after {
+    font-size: 20px !important;
+}
+
+.swiper-button-next::after {
+    font-size: 20px !important;
 }

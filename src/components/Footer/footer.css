@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 240px;
 }
 
 .footer__nav-item + .footer__nav-item {
@@ -23,7 +24,10 @@
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
+}
 
+.footer__nav-link-active {
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .footer__contact-wrapper {
@@ -106,7 +110,7 @@
 
 .footer__media-list {
     margin: 0;
-    margin-left: 475px;
+    margin-left: 410px;
     padding: 0;
     display: flex;
     list-style: none;
@@ -125,6 +129,7 @@
 .footer__bottom__wrapper {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .footer__bottom__desc {
@@ -144,4 +149,8 @@
     line-height: 17px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.footer__bottom__company-img {
+    margin-left: 5px;
 }

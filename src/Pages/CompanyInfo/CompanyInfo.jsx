@@ -1,12 +1,12 @@
 import "./companyInfo.css";
 import { Company } from "../../components/Company/Company";
-import { Header } from "../../components/Header/Header";
+import { Head } from "../../components/Head/Head";
 import { Footer } from "../../components/Footer/Footer";
 
 export const CompanyInfo = () => {
   return (
     <>
-      <Header/>
+      <Head/>
       <Company/>
       <Footer/>
     </>

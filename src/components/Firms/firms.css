@@ -1,24 +1,26 @@
-.firms-section__wrapper {
+.firms-section {
+    padding-bottom: 130px;
+}
+
+.firms-section__container {
+    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.firms-section {
-    padding-bottom: 130px;
+
+.firms-section__img-wrapper {
+    display: grid;
+    grid-template-columns: 353px 353px 353px 353px;
 }
 
-.firms-section__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.firms-section__wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
-}
-
-.firms-section__item + .firms-section__item {
-    margin-left: 5px;
+    justify-content: center;
 }
 
 .firms-section__title {
@@ -35,10 +37,33 @@
 
 .firms-section__desc {
     margin: 0;
+    margin-bottom: 35px;
     padding: 0;
     width: 900px;
     font-weight: 400;
     font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.firms-section__description-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.firms-section__description {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 900px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.05em;
     color: #FFFFFF;

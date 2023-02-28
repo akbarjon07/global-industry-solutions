@@ -1,15 +1,55 @@
-import './hero.css'
+import './hero.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, Pagination } from 'swiper';
+import Bg from "../../assets/images/hero-bg.png";
+import Bg2 from "../../assets/images/company-bg.jpeg";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 export const Hero = () => {
     return (
         <section className='hero-section'>
-            <div className="container">
-                <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
+                <Swiper
+                    modules={[Autoplay, Navigation, Pagination]}
+                    spaceBetween={80}
+                    slidesPerView={1}
+                    navigation
+                    autoplay={{
+                        delay: 9000,
+                        disableOnInteraction: false
+                    }}
+                    pagination={{ clickable: true }}
+                >
 
-                <p className='hero-section__desc'>SCROLL DOWN</p>
+                    <SwiperSlide>
+                        <div className="hero-section__wrapper">
+                            <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
 
-                <span className='hero-section__span'></span>
-            </div>
+                            <div className="hero-section__scroll">
+                                <p className='hero-section__desc'>SCROLL DOWN</p>
+
+                                <span className='hero-section__span'></span>
+                            </div>
+                        </div>
+
+                        <img className="hero-section__img" src={Bg} alt="volta-logo"/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="hero-section__wrapper">
+                            <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
+
+                            <div className="hero-section__scroll">
+                                <p className='hero-section__desc'>SCROLL DOWN</p>
+
+                                <span className='hero-section__span'></span>
+                            </div>
+                        </div>
+
+                        <img className="hero-section__img" src={Bg2} alt="volta-logo"/>
+                    </SwiperSlide>
+                </Swiper>
         </section>
     )
 }

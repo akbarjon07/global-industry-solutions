@@ -1,4 +1,5 @@
 import "./activity.css"
+import Gis from "../../assets/images/gis.svg";
 
 export const Activity = () => {
 
@@ -18,6 +19,10 @@ export const Activity = () => {
 
                     <p className="activity-section__description">Global Industrial Solutions поставляет промышленное оборудование, запасные части, материалы и комплектующие для промышленного оборудования и машин, а также химическую продукцию для различных отраслей промышленности. Наша профессиональная команда оперативно подберет и предложит Клиенту оборудование и материалы ведущих мировых компаний в соответствии с предпочтениями Клиента.</p>
                 </div>
+            </div>
+
+            <div className="activity-section__animation">
+                <img className="activity-section__animation-text" src={Gis} alt="gis" />
             </div>
         </section>
     )

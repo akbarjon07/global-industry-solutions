@@ -1,9 +1,10 @@
 import "./partner.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper';
+import { Autoplay} from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import Volta from "../../assets/images/volta.svg";
 import Esmak from "../../assets/images/esmak.svg";
@@ -18,52 +19,52 @@ export const Partner = () => {
 
     return (
         <section className="partner-section">
-            <div className="conatainer">
                 <h2 className="partner-section__title">Наши партнеры</h2>
 
-                <Swiper className="swiper-list"
-                    modules={[Navigation, Pagination]}
-                    spaceBetween={0}
-                    slidesPerView={3}
-                    navigation
-                    pagination={{ clickable: true }}
-                    // onSlideChange={() => console.log('slide change')}
-                    // onSwiper={(swiper) => console.log(swiper)}
+                <Swiper
+                    modules={[Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={5}
+                    freeMode={true}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false
+                    }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
                     >
+                        <SwiperSlide>
+                            <img src={Volta} alt="volta" width={215} height={85} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img className="partner-section__img" src={Volta} alt="volta-logo" width={155} height={60} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Esmak} alt="volta" width={260} height={128} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img className="partner-section__img" src={Esmak} alt="volta-logo" width={168} height={80} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Rosen} alt="volta" width={247} height={36} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <img className="partner-section__img" src={Rosen} alt="volta-logo" width={207} height={30} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Tli} alt="volta" width={181} height={69} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                    <img className="partner-section__img" src={Tli} alt="volta-logo" width={181} height={69} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Grab} alt="volta" width={231} height={60} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                    <img className="partner-section__img" src={Grab} alt="volta-logo" width={230} height={60} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Atlas} alt="volta" width={167} height={80} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                    <img className="partner-section__img" src={Atlas} alt="volta-logo" width={167} height={80} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Sam} alt="volta" width={245} height={40} />
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                    <img className="partner-section__img" src={Sam} alt="volta-logo" width={245} height={40} />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                    <img className="partner-section__img" src={Brist} alt="volta-logo" width={226} height={100} />
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={Brist} alt="volta" width={226} height={100} />
+                        </SwiperSlide>
                 </Swiper>
-            </div>
         </section>
     )
 }

@@ -6,12 +6,12 @@ export const News = () => {
 
     return (
         <section className="news-section">
-            <div className="container">
+            <div className="container news-section__container">
                 <ul className="news-section__list">
-                    <li className="news-section__item">
+                    <li className="news-section__item ">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -27,7 +27,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -43,7 +43,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -59,7 +59,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -75,7 +75,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -91,7 +91,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -107,7 +107,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -123,7 +123,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -139,7 +139,7 @@ export const News = () => {
                     <li className="news-section__item">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
-                                <img className="news-section__img" src={Card} alt="img" width={400} height={240}/>
+                                <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
                                     <p className="news-section__cat">Статья</p>
@@ -152,6 +152,30 @@ export const News = () => {
                         </Link>
                     </li>
                 </ul>
+
+                <nav className="news-section__pagination">
+                    <ul className="news-section__pag-list">
+                        <li className="news-section__pag-item active">
+                            <a className="news-section__pag-link" href="#">1</a>
+                        </li>
+
+                        <li className="news-section__pag-item">
+                            <a className="news-section__pag-link" href="#">2</a>
+                        </li>
+
+                        <li className="news-section__pag-item">
+                            <a className="news-section__pag-link" href="#">3</a>
+                        </li>
+
+                        <li className="news-section__pag-item">
+                            <a className="news-section__pag-link" href="#">4</a>
+                        </li>
+
+                        <li className="news-section__pag-item">
+                            <a className="news-section__pag-link" href="#">. . .</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
     )

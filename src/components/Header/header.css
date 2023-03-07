@@ -42,7 +42,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
-    transition: color 1s ease;
+    transition: color 150ms linear;
 }
 
 .header__nav-link:hover {
@@ -72,7 +72,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
-    transition: color 1s ease;
+    transition: color 150ms linear;
 }
 
 .header__number-link:hover {
@@ -130,7 +130,7 @@
     }
 
     .header__nav-item {
-        color: #242424;
+        color: #242424 !important;
     }
 
     .header__nav-item + .header__nav-item {

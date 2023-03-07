@@ -26,7 +26,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>
@@ -42,7 +42,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>
@@ -57,7 +57,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>
@@ -72,7 +72,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>
@@ -87,7 +87,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>
@@ -102,7 +102,7 @@ export const WorkType = (props) => {
 
                             <Link className="worktype-section__link" to="/company">
                                 Узнать больше
-                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img"></img>
+                                <img src={Arrow} alt="arrow" width={24} height={24}className="worktype-section__img-arrow"></img>
                             </Link>
                         </div>
                     </li>

@@ -30,18 +30,18 @@ export const Company = () => {
                 </ul>
 
                 <div className="company-section__image-wrapper">
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
-                    <img src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image" src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
+                    <img className="company-section__image"  src={Rec} alt="img" width={345} height={460}/>
                 </div>
             </div>
         </section>

@@ -1,7 +1,5 @@
 .mission-section {
-    padding-bottom: 150px;
     padding-bottom: 240px;
-
 }
 
 .mission-section__wrapper {
@@ -21,6 +19,10 @@
     margin-bottom: 48px;
 }
 
+.mission-section__right-title {
+    width: 515px !important;
+}
+
 .heading {
     margin: 0;
     margin-bottom: 24px;
@@ -28,7 +30,7 @@
     width: 469px;
     text-align: center;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 64px;
     line-height: 80px;
     color: #FFFFFF;
 }
@@ -65,11 +67,13 @@
     }
 
     .heading {
+        width: 340px;
         font-size: 32px;
         line-height: 40px;
     }
 
     .description {
+        width: 340px;
         font-size: 16px;
         line-height: 24px;
     }

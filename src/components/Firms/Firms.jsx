@@ -13,19 +13,19 @@ export const Firms = () => {
 
             <div className="firms-section__img-wrapper">
                     <Link to="#">
-                        <img src={Atlas} alt="img" width={380} height={600}/>
+                        <img className="firms-section__img" src={Atlas} alt="img"/>
                     </Link>
 
                     <Link to="#">
-                        <img src={Graboplast} alt="img" width={400} height={600}/>
+                        <img className="firms-section__img" src={Graboplast} alt="img"/>
                     </Link>
 
                     <Link to="#">
-                        <img src={Rosen} alt="img" width={380} height={600}/>
+                        <img className="firms-section__img" src={Rosen} alt="img"/>
                     </Link>
 
                     <Link to="#">
-                        <img src={Global} alt="img" width={380} height={600}/>
+                        <img className="firms-section__img" src={Global} alt="img"/>
                     </Link>
             </div>
 

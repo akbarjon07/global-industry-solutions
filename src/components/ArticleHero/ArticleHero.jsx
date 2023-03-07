@@ -12,6 +12,9 @@ export const ArticleHero = () => {
 
                 <img className="articlehero-section___img" src={Bg} alt="img" width={1400} height={740} />
             </div>
+
+            <img className="articlehero-section___img-res" src={Bg} alt="img" width={428} height={289} />
+
         </section>
     )
 }

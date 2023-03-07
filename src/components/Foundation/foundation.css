@@ -60,7 +60,7 @@
 .foundation-section__right-desc {
     margin: 0;
     padding: 0;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
@@ -87,7 +87,7 @@
     }
 
     .foundation-section__left {
-        width: 360px;
+        width: 340px;
     }
 
     .foundation-section__left-title {
@@ -99,12 +99,15 @@
     .foundation-section__left-img {
         width: 360px;
         height: 409px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .foundation-section__right {
         margin-left: 0;
         margin-top: 90px;
-        width: 360px;
+        width: 340px;
     }
 
     .foundation-section__right-span {

@@ -18,8 +18,13 @@
     justify-content: space-between;
 }
 
-.address {
-    margin-left: 20px;
+/* .bi-geo-alt {
+    margin-right: 20px;
+} */
+
+.loc {
+    margin-right: 20px;
+    color: #E89E4A;
 }
 
 .contacts-section__heading {
@@ -68,7 +73,11 @@
 }
 
 .con-icon {
-    color: #E89E4A;
+    color: #E89E4A !important;
+}
+
+.contacts-section__map-link-res {
+    display: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -80,17 +89,33 @@
 
     .contacts-section__wrapper {
         flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
     }
 
     .contacts-section__left {
         margin-bottom: 80px;
     }
 
-    .contacts-section__map-img {
-        width: 360px;
+    .contacts-section__map-link-res {
+        display: block;
+    }
+
+    .contacts-section__map-img-res {
+        width: 340px;
         height: 460px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .contact-section__form {
+        width: 340px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .contacts-section__map-link {
+        display: none;
     }
 }

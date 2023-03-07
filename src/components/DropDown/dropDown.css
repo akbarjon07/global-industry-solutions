@@ -1,0 +1,32 @@
+.dropdown {
+    background-color: transparent;
+    margin-left: 80px;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.bi-chevron-down {
+    margin-left: 10px;
+}
+
+.items-holder {
+    position: absolute;
+    background-color: #232323;
+    border-radius: 6px;
+}
+
+.dropdown-item {
+    padding: 10px 14px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+    background-color: #E89E4A;
+    border-radius: 6px;
+}

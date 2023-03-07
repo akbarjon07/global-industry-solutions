@@ -1,6 +1,7 @@
 import "./header.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { DropDown } from "../DropDown/DropDown";
 import Logo from "../../assets/images/Logo.svg"
 
 export const Header = () => {
@@ -10,6 +11,9 @@ export const Header = () => {
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
+
+    const [selected, setSelected] = useState("");
+
 
     return (
         <header className="header">
@@ -40,10 +44,7 @@ export const Header = () => {
                     <button onClick={showNavbar} className='header__close-btn nav-btn'><i className="bi bi-x-lg"></i></button>
                 </nav>
 
-                <select className="header__select">
-                    <option value="ru">RU</option>
-                    <option value="eng">ENG</option>
-                </select>
+                <DropDown/>
 
                 <a className="header__number-link" href="tel:+998(90) 325 37 00">+998(90) 325 37 00</a>
 

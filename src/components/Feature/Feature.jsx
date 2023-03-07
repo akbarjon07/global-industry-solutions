@@ -1,5 +1,6 @@
 import "./feature.css";
 import New from "../../assets/images/news-bg.png";
+import NewRes from "../../assets/images/news-bg-res.png";
 
 export const Feature = () => {
 
@@ -15,6 +16,8 @@ export const Feature = () => {
                     <h2 className="feature-section__title">Фирмы и инновации в новой промышленной парадигме цифровой трансформации</h2>
                 </div> */}
             </div>
+
+            <img className="feature-section__img-res" src={NewRes} alt="image" width={360} height={520}/>
         </section>
     )
 }

@@ -1,14 +1,14 @@
-import "./news.css";
+import "./newsArticle.css";
 import { Link } from "react-router-dom";
 import Card from "../../assets/images/card-bg.jpeg"
 
-export const News = () => {
+export const NewsArticle = () => {
 
     return (
         <section className="news-section">
             <div className="container news-section__container">
                 <ul className="news-section__list">
-                    <li className="news-section__item">
+                    <li className="news-section__item ">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>

@@ -1,5 +1,6 @@
 import "./contacts.css";
-import Map from "../../assets/images/map.jpeg"
+import Map from "../../assets/images/map.jpeg";
+import Mapres from "../../assets/images/map-res.jpeg";
 
 export const Contacts = () => {
 
@@ -12,7 +13,7 @@ export const Contacts = () => {
                         <div className="contacts-section__contact-wrapper">
 
                             <div className="footer__location-wrapper div-con">
-                                <i class="bi bi-geo-alt icon con-icon"></i>
+                                <i class="bi bi-geo-alt icon con-icon loc"></i>
 
 
                                 <p className="footer__location-desc address">
@@ -52,16 +53,20 @@ export const Contacts = () => {
                         <form className="contact-section__form">
                             <input className="contacts-section__name-input same-input" type="text" required placeholder="Ваше имя"/>
 
-                            <input className="contacts-section__number-inpu same-input" type="number" required placeholder="Номер телефона"/>
+                            <input className="contacts-section__number-inpu same-input" type="text" required placeholder="Номер телефона"/>
 
-                            <textarea rows={12} className="contacts-section__message-input same-input" type="text" required placeholder="Сообщение"/>
+                            <textarea rows={11} className="contacts-section__message-input same-input" type="text" required placeholder="Сообщение"/>
 
                             <button className="contacts-section__btn">Отправить</button>
                         </form>
                     </div>
 
                     <a className="contacts-section__map-link" href="#">
-                        <img className="contacts-section__map-img" src={Map} alt="map" width={973} height={714} />
+                        <img className="contacts-section__map-img" src={Map} alt="map" width={973} height={712} />
+                    </a>
+
+                    <a className="contacts-section__map-link-res" href="#">
+                        <img className="contacts-section__map-img-res" src={Map} alt="map" width={973} height={714} />
                     </a>
                 </div>
             </div>

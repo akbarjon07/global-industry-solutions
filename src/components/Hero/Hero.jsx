@@ -9,8 +9,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 export const Hero = () => {
+
     return (
         <section className='hero-section'>
+
                 <Swiper
                     modules={[Autoplay, Navigation, Pagination]}
                     spaceBetween={80}
@@ -24,22 +26,20 @@ export const Hero = () => {
                 >
 
                     <SwiperSlide>
-                        <div className="hero-section__wrapper">
-                            <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
+                            <div className="hero-section__wrapper">
+                                <div className="hero-section__scroll">
+                                    <p className='hero-section__desc'>SCROLL DOWN</p>
 
-                            <div className="hero-section__scroll">
-                                <p className='hero-section__desc'>SCROLL DOWN</p>
-
-                                <span className='hero-section__span'></span>
+                                    <span className='hero-section__span'></span>
+                                </div>
                             </div>
-                        </div>
 
-                        <img className="hero-section__img" src={Bg} alt="volta-logo"/>
+                        <img className="hero-section__img" src={Bg} loading="lazy" alt="volta-logo"
+                        />
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className="hero-section__wrapper">
-                            <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
-
                             <div className="hero-section__scroll">
                                 <p className='hero-section__desc'>SCROLL DOWN</p>
 
@@ -47,9 +47,13 @@ export const Hero = () => {
                             </div>
                         </div>
 
-                        <img className="hero-section__img" src={Bg2} alt="volta-logo"/>
+                        <img className="hero-section__img" src={Bg2} loading="lazy" alt="volta-logo"/>
                     </SwiperSlide>
                 </Swiper>
+
+                <div className="container">
+                    <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
+                </div>
         </section>
     )
 }

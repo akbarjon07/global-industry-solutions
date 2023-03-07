@@ -35,3 +35,27 @@
     margin-right: auto;
     width: 100%;
 }
+
+.articlehero-section___img-res {
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .articlehero-section__date {
+        margin-bottom: 40px;
+    }
+
+    .articlehero-section__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .articlehero-section___img {
+        display: none;
+    }
+
+    .articlehero-section___img-res {
+        display: block;
+        width: 100%;
+    }
+}

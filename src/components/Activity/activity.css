@@ -51,8 +51,8 @@
     margin: 0;
     margin-left: 205px;
     padding: 0;
-    width: 832px;
-    font-weight: 500;
+    width: 852px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
@@ -64,20 +64,23 @@
 }
 
 .activity-section__animation-text {
-    /* margin: 0;
-    padding: 0; */
-    /* font-weight: 600;
+    width: 2311px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
     font-size: 128px;
     line-height: 136px;
     text-transform: uppercase;
-    -webkit-text-stroke: 4px rgba(255, 255, 255, 0.2);
-    color: transparent; */
-    /* position: absolute; */
-    width: 100%;
+    text-shadow:
+        -4px 0px 0px rgba(255, 255, 255, 0.2),
+        4px 0px 0px rgba(255, 255, 255, 0.2),
+        0px -4px 0px rgba(255, 255, 255, 0.2),
+        0px 4px 0px rgba(255, 255, 255, 0.2);
+    color: #232323;
     height: 100%;
     text-align: center;
     transform: translate(100%);
-    animation: scroll-left 15s linear infinite;
+    animation: scroll-left 25s linear infinite;
 }
 
 @keyframes scroll-left {

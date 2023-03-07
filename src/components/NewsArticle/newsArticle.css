@@ -108,7 +108,6 @@
     background-color: transparent;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .news-section__item {
         margin-bottom: 50px;

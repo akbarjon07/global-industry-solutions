@@ -1,5 +1,5 @@
 import "./navigation.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export const Navigation = () => {
 
@@ -8,17 +8,19 @@ export const Navigation = () => {
             <div className="container">
                 <ul className="nav-section__list">
                     <li className="nav-section__item">
-                        <NavLink to="/all" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link active-link"}>Все</NavLink>
+                        <NavLink to="all" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link"}>Все</NavLink>
                     </li>
 
                     <li className="nav-section__item">
-                        <NavLink to="/articles" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link"}>Статьи</NavLink>
+                        <NavLink to="articles" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link"}>Статьи</NavLink>
                     </li>
 
                     <li className="nav-section__item">
-                        <NavLink to="/longridies" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link"}>Лонгриды</NavLink>
+                        <NavLink to="longreads" className={({isActive}) => isActive ? "nav-section__link-active nav-section__link" : "nav-section__link"}>Лонгриды</NavLink>
                     </li>
                 </ul>
+
+                {/* <Outlet/> */}
             </div>
         </section>
     )

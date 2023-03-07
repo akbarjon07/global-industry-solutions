@@ -22,7 +22,8 @@ export const Activity = () => {
             </div>
 
             <div className="activity-section__animation">
-                <img className="activity-section__animation-text" src={Gis} alt="gis" />
+                {/* <img className="activity-section__animation-text" src={Gis} alt="gis" /> */}
+                <p className="activity-section__animation-text">GIS - выбор профессионалов</p>
             </div>
         </section>
     )

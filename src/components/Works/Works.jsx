@@ -20,19 +20,19 @@ export const Works = () => {
 
 
             <div className="works-section__first-list">
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt1} alt="img" width={350} height={550}/>
 
                     <p className="works-section__desc">Гидравлическое оборудование</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt2} alt="img" width={350} height={550}/>
 
                     <p className="works-section__desc">Пневматическое оборудование</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt3} alt="img" width={715} height={550}/>
 
                     <p className="works-section__desc big">Электрооборудование и запасные части</p>
@@ -41,18 +41,18 @@ export const Works = () => {
 
 
             <div className="works-section__second-list">
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img item" src={Wt4} alt="img" width={715} height={550}/>
 
                     <p className="works-section__desc big">Насосы, электродвигатели и компрессоры</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt5} alt="img" width={350} height={550}/>
                     <p className="works-section__desc">Электрокары, мопеды и скутеры</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt6} alt="img" width={350} height={550}/>
 
                     <p className="works-section__desc">Химические продукты</p>
@@ -61,19 +61,19 @@ export const Works = () => {
 
 
             <div className="works-section__first-list">
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt7} alt="img" width={350} height={550}/>
 
                     <p className="works-section__desc bottom">Автозапчасти</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt8} alt="img" width={350} height={550}/>
 
                     <p className="works-section__desc small">Напольные покрытия</p>
                 </div>
 
-                <div>
+                <div className="works-section__item">
                     <img className="works-section__img" src={Wt9} alt="img" width={715} height={550}/>
 
                     <p className="works-section__desc big bottom">Продукты и Техника Пожаротушения</p>

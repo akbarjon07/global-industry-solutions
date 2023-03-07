@@ -2,6 +2,10 @@
     padding-top: 220px;
 }
 
+.feature-section__img-res {
+    display: none;
+}
+
 /* .feature-section__wrapper {
     margin-left: 40px;
     position: absolute;
@@ -29,3 +33,19 @@
     text-transform: uppercase;
     color: #FFFFFF;
 } */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .feature-section__img {
+        display: none;
+    }
+
+    .feature-section__img-res {
+        display: block;
+        width: 100%;
+    }
+}

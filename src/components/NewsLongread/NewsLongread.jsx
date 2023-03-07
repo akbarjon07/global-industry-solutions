@@ -1,20 +1,20 @@
-import "./news.css";
+import "./newsLongread.css";
 import { Link } from "react-router-dom";
 import Card from "../../assets/images/card-bg.jpeg"
 
-export const News = () => {
+export const NewsLongread = () => {
 
     return (
         <section className="news-section">
             <div className="container news-section__container">
                 <ul className="news-section__list">
-                    <li className="news-section__item">
+                    <li className="news-section__item ">
                         <Link className="news-section__link" to="/article">
                             <div className="news-section__wrapper">
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -30,7 +30,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -46,7 +46,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -62,7 +62,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -78,7 +78,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -94,7 +94,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -110,7 +110,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -126,7 +126,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 
@@ -142,7 +142,7 @@ export const News = () => {
                                 <img className="news-section__img" src={Card} alt="img" width={438} height={240}/>
 
                                 <div className="news-section__info-wrapper">
-                                    <p className="news-section__cat">Статья</p>
+                                    <p className="news-section__cat">Лонгриды</p>
 
                                     <h4 className="news-section__title">Роботы, навыки и временная работа: данные из шести европейских стран</h4>
 

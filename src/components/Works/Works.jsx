@@ -87,7 +87,7 @@ export const Works = () => {
                     <Link className="works-section__link" to="/company">
                         <img className="works-section__img" src={Wt8} alt="img" width={350} height={550}/>
 
-                        <p className="works-section__desc small">Напольные покрытия</p>
+                        <p className="works-section__desc bottom">Напольные покрытия</p>
                     </Link>
                 </div>
 

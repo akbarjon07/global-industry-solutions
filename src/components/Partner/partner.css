@@ -21,14 +21,31 @@
     color: #242424;
 }
 
+.partner-section__img-wrapper {
+    overflow: hidden;
+}
+
+.img-ticker {
+    display: flex;
+    align-items: center;
+    animation: ticker-kf 50s linear infinite;
+}
+
+@keyframes ticker-kf {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+      transform: translate3d(-150rem, 0, 0);
+    }
+}
+
+.partner-section__img + .partner-section__img {
+    margin-left: 80px;
+}
+
 .partner-section__img {
     width: 100%;
     height: 100%;
 }
-
-.swiper-wrapper {
-    display: flex;
-    align-items: center;
-}
-
-

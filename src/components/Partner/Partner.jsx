@@ -22,90 +22,46 @@ export const Partner = () => {
         <section className="partner-section">
                 <h2 className="partner-section__title">Наши партнеры</h2>
 
-                <Swiper
-                    loop={true}
-                    speed={5000}
-                    freeMode={true}
-                    direction='horizontal'
-                    modules={[Autoplay]}
-                    spaceBetween={80}
-                    slidesPerView={5}
-                    autoplay={{
-                        delay:0,
-                        disableOnInteraction: false
-                    }
-                    }
-                    onSwiper={(swiper) => console.log(swiper)}
-                    onSlideChange={() => console.log('slide change')}
-                    >
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Volta} alt="volta" width={215} height={85} />
-                        </SwiperSlide>
+                <div className="partner-section__img-wrapper">
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Esmak} alt="volta" width={260} height={128} />
-                        </SwiperSlide>
+                    <div className="img-ticker">
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Rosen} alt="volta" width={247} height={36} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Volta} alt="volta" width={215} height={85} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Tli} alt="volta" width={181} height={69} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Esmak} alt="volta" width={260} height={128} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Grab} alt="volta" width={231} height={60} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Rosen} alt="volta" width={247} height={36} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Atlas} alt="volta" width={167} height={80} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Tli} alt="volta" width={181} height={69} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Sam} alt="volta" width={245} height={40} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Grab} alt="volta" width={231} height={60} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Brist} alt="volta" width={226} height={100} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Atlas} alt="volta" width={167} height={80} />
+
+                        <img className="partner-section__img" src={Sam} alt="volta" width={245} height={40} />
+
+                        <img className="partner-section__img" src={Brist} alt="volta" width={226} height={100} />
 
 
+                        <img className="partner-section__img" src={Volta} alt="volta" width={215} height={85} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Volta} alt="volta" width={215} height={85} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Esmak} alt="volta" width={260} height={128} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Esmak} alt="volta" width={260} height={128} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Rosen} alt="volta" width={247} height={36} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Rosen} alt="volta" width={247} height={36} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Tli} alt="volta" width={181} height={69} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Tli} alt="volta" width={181} height={69} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Grab} alt="volta" width={231} height={60} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Grab} alt="volta" width={231} height={60} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Atlas} alt="volta" width={167} height={80} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Atlas} alt="volta" width={167} height={80} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Sam} alt="volta" width={245} height={40} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Sam} alt="volta" width={245} height={40} />
-                        </SwiperSlide>
+                        <img className="partner-section__img" src={Brist} alt="volta" width={226} height={100} />
 
-                        <SwiperSlide>
-                            <img className="partner-section__img" src={Brist} alt="volta" width={226} height={100} />
-                        </SwiperSlide>
+                    </div>
 
-                    </Swiper>
-
+                </div>
         </section>
     )
 }

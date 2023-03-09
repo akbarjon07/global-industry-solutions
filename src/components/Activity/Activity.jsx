@@ -1,5 +1,5 @@
-import "./activity.css"
-import Gis from "../../assets/images/gis.png";
+import "./activity.css";
+
 
 export const Activity = () => {
 
@@ -22,8 +22,12 @@ export const Activity = () => {
             </div>
 
             <div className="activity-section__animation">
-                {/* <img className="activity-section__animation-text" src={Gis} alt="gis" /> */}
-                <p className="activity-section__animation-text">GIS - выбор профессионалов</p>
+
+                <div className="activity-section__animation-wrapper">
+                    <p className="activity-section__animation-text">GIS - выбор профессионалов</p>
+                    {/* <p className="activity-section__animation-text first">GIS - выбор профессионалов</p> */}
+                </div>
+
             </div>
         </section>
     )

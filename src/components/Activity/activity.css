@@ -64,7 +64,7 @@
 }
 
 .activity-section__animation-text {
-    font-family:  sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 2311px;
     margin: 0;
     padding: 0;
@@ -73,23 +73,23 @@
     line-height: 136px;
     text-transform: uppercase;
     -webkit-text-stroke: 4px rgba(255, 255, 255, 0.2);
-    /* text-shadow:
-        -4px 0px 0px rgba(255, 255, 255, 0.2),
-        4px 0px 0px rgba(255, 255, 255, 0.2),
-        0px -4px 0px rgba(255, 255, 255, 0.2),
-        0px 4px 0px rgba(255, 255, 255, 0.2); */
     -webkit-text-fill-color: transparent;
     height: 100%;
     text-align: center;
-    transform: translate(100%);
+    transform: transtlateX(100vw);
     animation: scroll-left 25s linear infinite;
 }
 
+/* .activity-section__animation-wrapper {
+    transform: transtlateX(100%);
+    animation: scroll-left 25s linear infinite;
+} */
+
 @keyframes scroll-left {
  0%   {
- transform: translateX(100%);
+ transform: translateX(100vw);
  }
  100% {
- transform: translateX(-100%);
+ transform: translateX(-100vw);
  }
 }

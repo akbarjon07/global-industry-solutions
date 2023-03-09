@@ -15,6 +15,7 @@ export const Hero = () => {
 
                 <Swiper
                     modules={[Autoplay, Navigation, Pagination]}
+                    loop={true}
                     spaceBetween={80}
                     slidesPerView={1}
                     navigation

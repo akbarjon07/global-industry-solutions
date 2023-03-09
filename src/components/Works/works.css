@@ -17,6 +17,10 @@
     color: #E89E4A;
 }
 
+.works-section__link {
+    text-decoration: none;
+}
+
 .works-section__first-list {
     overflow: hidden;
     margin-bottom: 10px;
@@ -36,11 +40,16 @@
     height: 100%;
 }
 
+.works-section__item {
+    transition: all 0.9s linear;
+}
+
 .works-section__item:hover {
-    filter: brightness(120%);
+    filter: brightness(140%);
 }
 
 .works-section__desc {
+    text-decoration: none;
     margin: 0;
     padding: 0;
     position: relative;

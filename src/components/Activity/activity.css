@@ -64,6 +64,7 @@
 }
 
 .activity-section__animation-text {
+    font-family:  sans-serif;
     width: 2311px;
     margin: 0;
     padding: 0;
@@ -71,12 +72,13 @@
     font-size: 128px;
     line-height: 136px;
     text-transform: uppercase;
-    text-shadow:
+    -webkit-text-stroke: 4px rgba(255, 255, 255, 0.2);
+    /* text-shadow:
         -4px 0px 0px rgba(255, 255, 255, 0.2),
         4px 0px 0px rgba(255, 255, 255, 0.2),
         0px -4px 0px rgba(255, 255, 255, 0.2),
-        0px 4px 0px rgba(255, 255, 255, 0.2);
-    color: #232323;
+        0px 4px 0px rgba(255, 255, 255, 0.2); */
+    -webkit-text-fill-color: transparent;
     height: 100%;
     text-align: center;
     transform: translate(100%);

@@ -14,7 +14,7 @@ export const DropDown = () => {
         },
         {
             name: "Uzbek",
-            value: "UZB"
+            value: "UZ"
         }
     ]);
 

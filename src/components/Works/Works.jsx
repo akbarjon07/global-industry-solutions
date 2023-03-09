@@ -1,4 +1,5 @@
 import "./works.css"
+import { Link } from "react-router-dom";
 import Wt1 from "../../assets/images/work-1.jpeg";
 import Wt2 from "../../assets/images/work-2.jpeg";
 import Wt3 from "../../assets/images/work-3.jpeg";
@@ -21,62 +22,81 @@ export const Works = () => {
 
             <div className="works-section__first-list">
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt1} alt="img" width={350} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt1} alt="img" width={350} height={550}/>
 
-                    <p className="works-section__desc">Гидравлическое оборудование</p>
+                        <p className="works-section__desc">Гидравлическое оборудование</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt2} alt="img" width={350} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt2} alt="img" width={350} height={550}/>
 
-                    <p className="works-section__desc">Пневматическое оборудование</p>
+                        <p className="works-section__desc">Пневматическое оборудование</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt3} alt="img" width={715} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt3} alt="img" width={715} height={550}/>
 
-                    <p className="works-section__desc big">Электрооборудование и запасные части</p>
+                        <p className="works-section__desc big">Электрооборудование и запасные части</p>
+                    </Link>
                 </div>
             </div>
 
 
             <div className="works-section__second-list">
                 <div className="works-section__item">
-                    <img className="works-section__img item" src={Wt4} alt="img" width={715} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img item" src={Wt4} alt="img" width={715} height={550}/>
 
-                    <p className="works-section__desc big">Насосы, электродвигатели и компрессоры</p>
+                        <p className="works-section__desc big">Насосы, электродвигатели и компрессоры</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt5} alt="img" width={350} height={550}/>
-                    <p className="works-section__desc">Электрокары, мопеды и скутеры</p>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt5} alt="img" width={350} height={550}/>
+
+                        <p className="works-section__desc">Электрокары, мопеды и скутеры</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt6} alt="img" width={350} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt6} alt="img" width={350} height={550}/>
 
-                    <p className="works-section__desc">Химические продукты</p>
+                        <p className="works-section__desc">Химические продукты</p>
+                    </Link>
                 </div>
             </div>
 
 
             <div className="works-section__first-list">
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt7} alt="img" width={350} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt7} alt="img" width={350} height={550}/>
 
-                    <p className="works-section__desc bottom">Автозапчасти</p>
+                        <p className="works-section__desc bottom">Автозапчасти</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt8} alt="img" width={350} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt8} alt="img" width={350} height={550}/>
 
-                    <p className="works-section__desc small">Напольные покрытия</p>
+                        <p className="works-section__desc small">Напольные покрытия</p>
+                    </Link>
                 </div>
 
                 <div className="works-section__item">
-                    <img className="works-section__img" src={Wt9} alt="img" width={715} height={550}/>
+                    <Link className="works-section__link" to="/company">
+                        <img className="works-section__img" src={Wt9} alt="img" width={715} height={550}/>
 
-                    <p className="works-section__desc big bottom">Продукты и Техника Пожаротушения</p>
+                        <p className="works-section__desc big bottom">Продукты и Техника Пожаротушения</p>
+                    </Link>
                 </div>
             </div>
         </section>

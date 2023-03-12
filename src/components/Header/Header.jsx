@@ -12,8 +12,6 @@ export const Header = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
 
-    const [selected, setSelected] = useState("");
-
 
     return (
         <header className="header">
@@ -25,19 +23,19 @@ export const Header = () => {
                 <nav ref={navRef} className="header__nav">
                     <ul className="header__nav-list">
                         <li className="header__nav-item">
-                            <NavLink to="/about" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>О компании</NavLink>
+                            <NavLink to="/about" onClick={showNavbar} className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>О компании</NavLink>
                         </li>
 
                         <li className="header__nav-item">
-                            <NavLink to="/activity" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Сферы деятельности</NavLink>
+                            <NavLink to="/activity" onClick={showNavbar} className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Сферы деятельности</NavLink>
                         </li>
 
                         <li className="header__nav-item">
-                            <NavLink to="/news" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Новости</NavLink>
+                            <NavLink to="/news" onClick={showNavbar} className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Новости</NavLink>
                         </li>
 
                         <li className="header__nav-item">
-                            <NavLink to="/contacts" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Контакты</NavLink>
+                            <NavLink to="/contacts" onClick={showNavbar} className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Контакты</NavLink>
                         </li>
                     </ul>
 

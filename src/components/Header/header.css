@@ -116,11 +116,12 @@
         height: 100%;
         width: 100%;
         gap: 1.5rem;
-        background-color: white;
+        background-color: #FFFFFF;
         opacity: 1;
         display: none;
         border: 1px solid transparent;
         border-radius: 15px;
+        z-index: 1;
     }
 
     .header__nav-list {
@@ -129,8 +130,16 @@
         justify-content: center;
     }
 
-    .header__nav-item {
+    .header__nav-link {
         color: #242424 !important;
+    }
+
+    .header__nav-link:hover {
+        color: #E89E4A !important;
+    }
+
+    .header__nav-link:active {
+        color: #E89E4A !important;
     }
 
     .header__nav-item + .header__nav-item {
@@ -143,6 +152,7 @@
     }
 
     .header__close-btn {
+        color: #242424;
         position: absolute;
         top: 2rem;
         right: 2rem;

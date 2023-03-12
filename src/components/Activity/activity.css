@@ -9,7 +9,7 @@
 }
 
 .bi-octagon-fill {
-    color: #E89E4A;;
+    color: #E89E4A;
 }
 
 .activity-section__desc {
@@ -92,4 +92,45 @@
  100% {
  transform: translateX(-100vw);
  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .activity-section__desc-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .activity-section__desc {
+        font-size: 12px;
+        line-height: 20px;
+        width: 328px;
+    }
+
+    .activity-section__title {
+        width: 340px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .activity-section__wrapper {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .activity-section__span {
+        margin-bottom: 40px;
+    }
+
+    .activity-section__description {
+        width: 340px;
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .activity-section__animation-text {
+        font-size: 96px;
+        line-height: 108px;
+    }
 }

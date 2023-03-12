@@ -61,11 +61,62 @@
     color: #FFFFFF;
 }
 
+.ref {
+    width: 200px;
+}
+
 .big {
     width: 688px;
 }
 
 .bottom {
     bottom: 80px;
+}
 
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .works-section {
+        padding-bottom: 120px;
+    }
+
+    .works-section__title {
+        width: 340px;
+        margin-bottom: 120px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .works-section__first-list {
+        grid-template-columns: repeat(1, 100%)
+    }
+
+    .works-section__second-list {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .works-section__item {
+        width: 428px;
+        height: 675px;
+    }
+
+    .works-section__desc {
+        width: 340px;
+        font-size: 24px;
+        line-height: 32px;
+        bottom: 100px;
+    }
+
+    .ref {
+        width: 0px;
+    }
+
+    .big {
+        width: 0px;
+    }
+
+    .bottom {
+        bottom: 0px;
+    }
 }

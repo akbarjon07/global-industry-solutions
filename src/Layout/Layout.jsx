@@ -12,6 +12,10 @@ import { Footer } from "../components/Footer/Footer";
 import { News } from "../components/News/News";
 import {NewsArticle} from "../components/NewsArticle/NewsArticle";
 import {NewsLongread} from "../components/NewsLongread/NewsLongread";
+import Atlas from "../components/Brand/Atlas";
+import Rosen from "../components/Brand/Rosen";
+import Grab from "../components/Brand/Grab";
+import Tli from "../components/Brand/Tli";
 
 
 
@@ -28,7 +32,12 @@ export const Layout = () => {
                 <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about" element={<About/>}/>
-                        <Route path="/activity" element={<Projects/>}/>
+                        <Route path="activity" element={<Projects/>}>
+                            <Route path="atlas" element={<Atlas/>}/>
+                            <Route path="rosenbauer" element={<Rosen/>}/>
+                            <Route path="graboplast" element={<Grab/>}/>
+                            <Route path="tli" element={<Tli/>}/>
+                        </Route>
                         <Route path="news" element={<New/>}>
                             <Route path="all" element={<News/>}/>
                             <Route path="articles" element={<NewsArticle/>}/>

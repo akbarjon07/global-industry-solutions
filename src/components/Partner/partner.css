@@ -49,3 +49,20 @@
     width: 100%;
     height: 100%;
 }
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .partner-section {
+        padding-bottom: 130px;
+    }
+
+    .partner-section__title {
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

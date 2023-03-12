@@ -6,7 +6,7 @@ export const Contacts = () => {
 
     return (
         <section className="contacts-section">
-            <div className="container">
+            <div className="container contacts-section__container">
                 <h2 className="contacts-section__title">Наши контакты</h2>
                 <div className="contacts-section__wrapper">
                     <div className="contacts-section__left">
@@ -61,15 +61,8 @@ export const Contacts = () => {
                         </form>
                     </div>
 
-                    {/* <a className="contacts-section__map-link" href="#">
-                        <img className="contacts-section__map-img" src={Map} alt="map" width={973} height={712} />
-                    </a> */}
-
                     <iframe className="contacts-section__map-link" src="https://yandex.com/map-widget/v1/?um=constructor%3A8a6263dcdbb3b9d8fbd835f69a9f059c40a178bbf8f21aaccd512c91be39db29&amp;source=constructor" width="973" height="712" frameborder="0"></iframe>
 
-                    <a className="contacts-section__map-link-res" href="#">
-                        <img className="contacts-section__map-img-res" src={Map} alt="map" width={973} height={714} />
-                    </a>
                 </div>
             </div>
         </section>

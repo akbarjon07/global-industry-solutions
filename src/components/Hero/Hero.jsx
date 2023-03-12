@@ -27,33 +27,26 @@ export const Hero = () => {
                 >
 
                     <SwiperSlide>
-                            <div className="hero-section__wrapper">
-                                <div className="hero-section__scroll">
-                                    <p className='hero-section__desc'>SCROLL DOWN</p>
 
-                                    <span className='hero-section__span'></span>
-                                </div>
-                            </div>
+                        <img className="hero-section__img" src={Bg} loading="lazy" alt="volta-logo"/>
 
-                        <img className="hero-section__img" src={Bg} loading="lazy" alt="volta-logo"
-                        />
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <div className="hero-section__wrapper">
-                            <div className="hero-section__scroll">
-                                <p className='hero-section__desc'>SCROLL DOWN</p>
-
-                                <span className='hero-section__span'></span>
-                            </div>
-                        </div>
 
                         <img className="hero-section__img" src={Bg2} loading="lazy" alt="volta-logo"/>
+
                     </SwiperSlide>
                 </Swiper>
 
                 <div className="container">
-                    <h1 className='hero-section__title'>Исключительный Сервис c Качественным Оборудованием</h1>
+                    <h1 className='hero-section__title'>Исключитель<span>ный</span> Сервис c Качественным Оборудованием</h1>
+
+                    <div className="hero-section__scroll">
+                        <p className='hero-section__desc'>SCROLL DOWN</p>
+
+                        <span className='hero-section__span'></span>
+                    </div>
                 </div>
         </section>
     )

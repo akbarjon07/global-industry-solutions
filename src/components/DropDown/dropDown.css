@@ -33,3 +33,9 @@
     background-color: #E89E4A;
     border-radius: 6px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .dropdown {
+        display: none;
+    }
+}

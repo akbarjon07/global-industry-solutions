@@ -96,10 +96,14 @@
         padding-bottom: 120px;
     }
 
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
     .hero-section__title {
-        /* word-break: break-word; */
-        width: 340px;
-        font-size: 40px;
+        width: 320px;
+        font-size: 38px;
         line-height: 49px;
         text-align: center;
     }

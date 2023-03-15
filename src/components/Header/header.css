@@ -151,6 +151,10 @@
         display: block;
     }
 
+    .header__select {
+        display: none;
+    }
+
     .header__close-btn {
         color: #242424;
         position: absolute;

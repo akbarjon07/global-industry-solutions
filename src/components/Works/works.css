@@ -102,7 +102,7 @@
     }
 
     .works-section__desc {
-        width: 340px;
+        width: 300px;
         font-size: 24px;
         line-height: 32px;
         bottom: 100px;
@@ -113,10 +113,10 @@
     }
 
     .big {
-        width: 0px;
+        width: 340px;
     }
 
     .bottom {
-        bottom: 0px;
+        bottom: 100px;
     }
 }
